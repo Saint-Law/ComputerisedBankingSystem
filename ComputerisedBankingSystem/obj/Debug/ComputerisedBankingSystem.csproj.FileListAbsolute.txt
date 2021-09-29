@@ -1,0 +1,25 @@
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\bin\Debug\ComputerisedBankingSystem.exe.config
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\bin\Debug\ComputerisedBankingSystem.exe
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\bin\Debug\ComputerisedBankingSystem.pdb
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.csprojResolveAssemblyReference.cache
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.Customer.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.CustomerData.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.Dashboard.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.EditCustomer.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.EditStaff.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.Expenses.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.Form2.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.Properties.Resources.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.StaffReg.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.UserReg.resources
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.csproj.GenerateResource.Cache
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.exe
+c:\users\saintlaw\documents\visual studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.pdb
+C:\Users\Saintlaw\Documents\Visual Studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\EventManagementSystem.Form1.resources
+C:\Users\Saintlaw\Documents\Visual Studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.StaffData.resources
+C:\Users\Saintlaw\Documents\Visual Studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.ExpensesType.resources
+C:\Users\Saintlaw\Documents\Visual Studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.EditExpenses.resources
+C:\Users\Saintlaw\Documents\Visual Studio 2015\Projects\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.BvnGen.resources
+C:\Users\Saintlaw\Source\Repos\ComputerisedBankingSystem\ComputerisedBankingSystem\bin\Debug\ComputerisedBankingSystem.exe.config
+C:\Users\Saintlaw\Source\Repos\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.exe
+C:\Users\Saintlaw\Source\Repos\ComputerisedBankingSystem\ComputerisedBankingSystem\obj\Debug\ComputerisedBankingSystem.pdb
