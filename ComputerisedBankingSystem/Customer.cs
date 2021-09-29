@@ -76,7 +76,7 @@ namespace EventManagementSystem
                 command.Parameters.Add(new SqlParameter("@IMG", img));
                 int affectedrow = command.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show(affectedrow.ToString() + "customer Record Saved Successfully", "CONFIRMATION", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(affectedrow.ToString() + " " + "customer Record Saved Successfully", "CONFIRMATION", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             catch (Exception ex)
@@ -101,6 +101,7 @@ namespace EventManagementSystem
             txtName.Clear();
             txtnation.Clear();
             txtState.Clear();
+            txtName.Focus();
 
         }
 
@@ -138,7 +139,7 @@ namespace EventManagementSystem
                 Enumerable.Repeat(chars, 7)
                           .Select(s => s[random.Next(s.Length)])
                           .ToArray());
-            txtid.Text = "211" + result;
+            txtAno.Text = "211" + result;
 
         }
 
@@ -146,6 +147,15 @@ namespace EventManagementSystem
         {
             generateCusID();
             generateAcctNo();
+        }
+
+        private void dtpDate_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime from = dtpDate.Value;
+            DateTime to = DateTime.Now;
+            TimeSpan span = to - from;
+            double days = span.TotalDays;
+            txtage.Text = (days / 365).ToString("0");
         }
     }
 }

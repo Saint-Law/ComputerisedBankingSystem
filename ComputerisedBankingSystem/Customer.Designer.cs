@@ -38,6 +38,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtpDissu = new System.Windows.Forms.DateTimePicker();
             this.cmbTid = new System.Windows.Forms.ComboBox();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -48,6 +49,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -55,12 +57,15 @@
             this.txtKname = new System.Windows.Forms.TextBox();
             this.txtLga = new System.Windows.Forms.TextBox();
             this.txtage = new System.Windows.Forms.TextBox();
+            this.txtAno = new System.Windows.Forms.TextBox();
             this.txtIdNo = new System.Windows.Forms.TextBox();
             this.txtKadd = new System.Windows.Forms.TextBox();
             this.txtnation = new System.Windows.Forms.TextBox();
+            this.txtKcon = new System.Windows.Forms.TextBox();
             this.txtMail = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.txtState = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.txtContact = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.txtKrel = new System.Windows.Forms.TextBox();
@@ -73,11 +78,6 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtAdd = new System.Windows.Forms.TextBox();
             this.txtid = new System.Windows.Forms.TextBox();
-            this.dtpDissu = new System.Windows.Forms.DateTimePicker();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtKcon = new System.Windows.Forms.TextBox();
-            this.txtAno = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -95,7 +95,7 @@
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1138, 671);
-            this.panel1.TabIndex = 2;
+            this.panel1.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -109,7 +109,7 @@
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Size = new System.Drawing.Size(134, 440);
-            this.groupBox2.TabIndex = 103;
+            this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             // 
             // btnData
@@ -121,7 +121,7 @@
             this.btnData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnData.Name = "btnData";
             this.btnData.Size = new System.Drawing.Size(108, 65);
-            this.btnData.TabIndex = 4;
+            this.btnData.TabIndex = 3;
             this.btnData.Text = "&Get Data";
             this.btnData.UseVisualStyleBackColor = false;
             this.btnData.Click += new System.EventHandler(this.btnData_Click);
@@ -161,7 +161,7 @@
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(108, 65);
-            this.btnClose.TabIndex = 3;
+            this.btnClose.TabIndex = 4;
             this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -250,8 +250,18 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Size = new System.Drawing.Size(954, 589);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
+            // 
+            // dtpDissu
+            // 
+            this.dtpDissu.Font = new System.Drawing.Font("Courier New", 10F);
+            this.dtpDissu.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDissu.Location = new System.Drawing.Point(681, 376);
+            this.dtpDissu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dtpDissu.Name = "dtpDissu";
+            this.dtpDissu.Size = new System.Drawing.Size(252, 30);
+            this.dtpDissu.TabIndex = 16;
             // 
             // cmbTid
             // 
@@ -266,7 +276,7 @@
             this.cmbTid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbTid.Name = "cmbTid";
             this.cmbTid.Size = new System.Drawing.Size(252, 30);
-            this.cmbTid.TabIndex = 109;
+            this.cmbTid.TabIndex = 14;
             // 
             // btnBrowse
             // 
@@ -277,7 +287,7 @@
             this.btnBrowse.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(252, 37);
-            this.btnBrowse.TabIndex = 107;
+            this.btnBrowse.TabIndex = 13;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = false;
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
@@ -306,7 +316,7 @@
             this.cmbSex.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbSex.Name = "cmbSex";
             this.cmbSex.Size = new System.Drawing.Size(252, 30);
-            this.cmbSex.TabIndex = 105;
+            this.cmbSex.TabIndex = 3;
             // 
             // label3
             // 
@@ -340,7 +350,8 @@
             this.dtpDate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtpDate.Name = "dtpDate";
             this.dtpDate.Size = new System.Drawing.Size(252, 30);
-            this.dtpDate.TabIndex = 1;
+            this.dtpDate.TabIndex = 7;
+            this.dtpDate.ValueChanged += new System.EventHandler(this.dtpDate_ValueChanged);
             // 
             // label21
             // 
@@ -377,6 +388,18 @@
             this.label12.Size = new System.Drawing.Size(58, 23);
             this.label12.TabIndex = 16;
             this.label12.Text = "Age:";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label17.Location = new System.Drawing.Point(15, 548);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(178, 23);
+            this.label17.TabIndex = 16;
+            this.label17.Text = "Accout Number:";
             // 
             // label20
             // 
@@ -433,16 +456,16 @@
             this.txtKname.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtKname.Name = "txtKname";
             this.txtKname.Size = new System.Drawing.Size(252, 30);
-            this.txtKname.TabIndex = 5;
+            this.txtKname.TabIndex = 17;
             // 
             // txtLga
             // 
             this.txtLga.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLga.Location = new System.Drawing.Point(203, 505);
+            this.txtLga.Location = new System.Drawing.Point(200, 504);
             this.txtLga.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLga.Name = "txtLga";
             this.txtLga.Size = new System.Drawing.Size(252, 30);
-            this.txtLga.TabIndex = 5;
+            this.txtLga.TabIndex = 11;
             // 
             // txtage
             // 
@@ -452,7 +475,17 @@
             this.txtage.Name = "txtage";
             this.txtage.ReadOnly = true;
             this.txtage.Size = new System.Drawing.Size(252, 30);
-            this.txtage.TabIndex = 5;
+            this.txtage.TabIndex = 8;
+            // 
+            // txtAno
+            // 
+            this.txtAno.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAno.Location = new System.Drawing.Point(200, 545);
+            this.txtAno.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtAno.Name = "txtAno";
+            this.txtAno.ReadOnly = true;
+            this.txtAno.Size = new System.Drawing.Size(252, 30);
+            this.txtAno.TabIndex = 12;
             // 
             // txtIdNo
             // 
@@ -461,7 +494,7 @@
             this.txtIdNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtIdNo.Name = "txtIdNo";
             this.txtIdNo.Size = new System.Drawing.Size(252, 30);
-            this.txtIdNo.TabIndex = 5;
+            this.txtIdNo.TabIndex = 15;
             // 
             // txtKadd
             // 
@@ -470,16 +503,25 @@
             this.txtKadd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtKadd.Name = "txtKadd";
             this.txtKadd.Size = new System.Drawing.Size(252, 30);
-            this.txtKadd.TabIndex = 5;
+            this.txtKadd.TabIndex = 19;
             // 
             // txtnation
             // 
             this.txtnation.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnation.Location = new System.Drawing.Point(203, 425);
+            this.txtnation.Location = new System.Drawing.Point(200, 425);
             this.txtnation.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtnation.Name = "txtnation";
             this.txtnation.Size = new System.Drawing.Size(252, 30);
-            this.txtnation.TabIndex = 5;
+            this.txtnation.TabIndex = 9;
+            // 
+            // txtKcon
+            // 
+            this.txtKcon.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtKcon.Location = new System.Drawing.Point(681, 543);
+            this.txtKcon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtKcon.Name = "txtKcon";
+            this.txtKcon.Size = new System.Drawing.Size(252, 30);
+            this.txtKcon.TabIndex = 20;
             // 
             // txtMail
             // 
@@ -488,7 +530,7 @@
             this.txtMail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(252, 30);
-            this.txtMail.TabIndex = 5;
+            this.txtMail.TabIndex = 6;
             // 
             // label19
             // 
@@ -505,11 +547,23 @@
             // txtState
             // 
             this.txtState.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtState.Location = new System.Drawing.Point(203, 465);
+            this.txtState.Location = new System.Drawing.Point(200, 463);
             this.txtState.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtState.Name = "txtState";
             this.txtState.Size = new System.Drawing.Size(252, 30);
-            this.txtState.TabIndex = 4;
+            this.txtState.TabIndex = 10;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label10.Location = new System.Drawing.Point(463, 548);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(154, 23);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "Kin Contact:";
             // 
             // txtContact
             // 
@@ -518,7 +572,7 @@
             this.txtContact.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(252, 30);
-            this.txtContact.TabIndex = 4;
+            this.txtContact.TabIndex = 5;
             // 
             // label14
             // 
@@ -539,7 +593,7 @@
             this.txtKrel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtKrel.Name = "txtKrel";
             this.txtKrel.Size = new System.Drawing.Size(252, 30);
-            this.txtKrel.TabIndex = 4;
+            this.txtKrel.TabIndex = 18;
             // 
             // label18
             // 
@@ -630,7 +684,7 @@
             this.txtAdd.Multiline = true;
             this.txtAdd.Name = "txtAdd";
             this.txtAdd.Size = new System.Drawing.Size(252, 101);
-            this.txtAdd.TabIndex = 3;
+            this.txtAdd.TabIndex = 4;
             // 
             // txtid
             // 
@@ -640,60 +694,7 @@
             this.txtid.Name = "txtid";
             this.txtid.ReadOnly = true;
             this.txtid.Size = new System.Drawing.Size(252, 30);
-            this.txtid.TabIndex = 0;
-            // 
-            // dtpDissu
-            // 
-            this.dtpDissu.Font = new System.Drawing.Font("Courier New", 10F);
-            this.dtpDissu.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDissu.Location = new System.Drawing.Point(681, 376);
-            this.dtpDissu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.dtpDissu.Name = "dtpDissu";
-            this.dtpDissu.Size = new System.Drawing.Size(252, 30);
-            this.dtpDissu.TabIndex = 110;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label10.Location = new System.Drawing.Point(463, 548);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(154, 23);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Kin Contact:";
-            // 
-            // txtKcon
-            // 
-            this.txtKcon.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtKcon.Location = new System.Drawing.Point(681, 543);
-            this.txtKcon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtKcon.Name = "txtKcon";
-            this.txtKcon.Size = new System.Drawing.Size(252, 30);
-            this.txtKcon.TabIndex = 4;
-            // 
-            // txtAno
-            // 
-            this.txtAno.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAno.Location = new System.Drawing.Point(203, 545);
-            this.txtAno.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtAno.Name = "txtAno";
-            this.txtAno.ReadOnly = true;
-            this.txtAno.Size = new System.Drawing.Size(252, 30);
-            this.txtAno.TabIndex = 5;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label17.Location = new System.Drawing.Point(15, 548);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(178, 23);
-            this.label17.TabIndex = 16;
-            this.label17.Text = "Accout Number:";
+            this.txtid.TabIndex = 1;
             // 
             // Customer
             // 

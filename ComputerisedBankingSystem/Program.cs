@@ -17,7 +17,7 @@ namespace EventManagementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BvnGen());
+            Application.Run(new Customer());
         }
     }
 }
